@@ -1,0 +1,171 @@
+*{
+    margin :0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+    color:rgb(18, 14, 14);
+    line-height: 1.5;
+    letter-spacing: 1px;
+   
+
+}
+.banner a{
+    text-decoration: none;
+}
+.banner{
+	width: 100%;
+	height: 80px;
+	background-color: #fee;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+.list ul{
+	display: flex;
+	align-items: center;
+    list-style: none;
+}
+.list ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+list ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
+} 
+.signup a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid lightskyblue;
+}
+
+.signup a:hover{
+	background-color: lightblue;
+	transition: 0.6s;
+}
+/* the maie class*/
+.about{
+    min-width: 100vh;
+    width: 100%;
+    
+}
+.text{
+    padding: 50px 50px 50px 50px ;
+    margin: 50px 50px 50px 50px;
+    position:relative;
+
+}
+article h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform:uppercase;
+    letter-spacing: 1.5px;
+    transition: 0.5s;
+    text-transform: right;
+}
+/* keeping the words white when i touch it*/
+article h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+
+}
+/* keeping the words white when i touch it*/
+article h3:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+
+}
+article h1:after{
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: black;
+    display: block;
+    margin: auto;
+}
+/* words about msa */
+blockquote{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+            
+body{
+    background-image: url("giphy-downsized-large.gif");
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+    width : auto;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* gif */
+.backvideo{
+    
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+    width : auto;
+    height: 100%;
+    background-repeat:no-repeat;
+}
+/* list of emal , phone,..*/
+ul h3{
+    list-style-position:initial;
+    text-align: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+   
+    
+}
+
+list {
+    border: 1px solid darkblue;
+    width: 500px;
+    list-style-position:outside;
+    text-align:left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+
+    /* this line for keeping list elemants under each other*/
+    padding-inline-start: 0px;
+
+    top:0;
+    
+   
+    
+
+
+    
+}
+
+/* our names*/
+.msa{
+    text-align: justify;
+    transform: translate(30%);
+    margin: 0.3px 0.3px;
+    border: 1px 1px 1px 1px;
+    box-sizing: border-box;
+    display: inline;
+    float: right;
+    
+}

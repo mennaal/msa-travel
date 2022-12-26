@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title>
+
+            The first core page choose your booking 
+        </title>
+        <!-- the background image-->
+       
+            <style>
+                body {
+                  background-image: url('97839006-travel-bag-luggage-with-travel-time-text-on-blue-background-.jpg');
+                }
+                </style>
+        <link rel="stylesheet" href="msatravel_style.css">
+      
+    </head>
+    <body>
+      
+      <div class="">
+        <h1 style="color:rgb(171, 11, 11);">It's Booking Time!!</h1>
+        <p3 style="color:rgb(255, 0, 102);">Please fill the form.</p3>
+      </div>
+        <!-- 
+           
+            <div class="banner">
+           <div class="navbar">
+           <img src="large.png"class="logo"> 
+            <img src="msaLogo2.ico"class="logo">
+            <ul>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">search</a></li>
+                <li><a href="#">booking</a></li>
+                <li><a href="#">cancelation</a></li>
+                <li><a href="#">contact_us</a></li>
+            </ul>
+        </div class="content">
+        <h1>travel the world with us </h1>
+        <p>there is much to do and many unknown in the horizen</p>
+
+           </div>
+        </div>
+         -->
+        
+        <!-- form filling part-->
+        <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="TravelersEmail">Please Enter Your email</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="TravelersEmail" name="travelersEmail" placeholder="@">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="phoneNumberclinent1">Please Enter Your phone number</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="phoneNumberclinent1" name="phoneNumber" placeholder="Enter Your phone">
+                </div>
+              </div>
+             
+
+                    <!-- inside egypt -->
+              <div class="row">
+                <div class="col-25">
+                  <label for="egycountry">Where to Travel in Egypt<br>(OM Eldonia)</br></label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="ICcairo">Cairo</option>
+                    <option value="ICAlexandria">Alexandria</option>
+                    <option value="ICNewadministrativeCapital"> New Adminstrative Captital</option>
+                    <option value="ICAswan">Aswan</option>
+                    <option value="ICfayiom">Fayiom</option>
+                    <option value="ICMansora">Mansora</option>
+                    <option value="ICSharm">Sharm Elshaikh</option>
+                    <option value="ICDahab">Dahab</option>
+                    <option value="ICLuxor">Luxor</option>
+                  </select>
+                </div>
+              </div>
+              <!-- outside egypt -->
+              <div class="row">
+                <div class="col-25">
+                  <label for="outcountry">Where to Travel in this Vast world?</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="OIpalasitne"><P>palastine</P></option>
+                    <option value="OIKsa">Saudi Arabia</option>
+                    <option value="OIEngland">England</option>
+                    <option value="OIIndia">India</option>
+                    <option value="OIPakistan">Pakistan</option>
+                    <option value="OIChina">china</option>
+                    <option value="OJapan">Japan</option>
+                    <option value="OIMalaysia">Malaysia</option>
+                    <option value="OIFrance">France</option>
+                    <option value="OIUnited StateOfAmerica">United StateOfAmerica</option>
+                  </select>
+                </div>
+              </div>
+
+               
+
+                <!-- flight -->
+              <div class="row">
+                <div class="col-25">
+                  <label for="fplane">choose your ticket type </label>
+                </div>
+                <div class="col-75">
+                  <select id="plane" name="plane">
+                    <option value="fclass">First class</option>
+                    <option value="economy">Economy</option>
+                    <option value="VIP">VIP</option>
+                  </select>
+                </div>
+              </div>
+              <!-- flight time  -->
+              <div class="row">
+                <div class="col-25">
+                  <label for="outcountry">time you would like to book your flight?</label>
+                </div>
+                <div class="col-75">
+                  <select id="flightTime" name="flightTime">
+                    <option value="TimeFly8.00"><P>8:00</P></option>
+                    <option value="TimeFly10.00"><P>10:00</P></option>
+                    <option value="TimeFly12.00"><P>12:00</P></option>
+                    <option value="TimeFly14.00"><P>14:00</P></option>
+                    <option value="TimeFly16.00"><P>16:00</P></option>
+                    <option value="TimeFly18.00"><P>18:00</P></option>
+                    <option value="TimeFly20.00"><P>20:00</P></option>
+                    <option value="TimeFly00.00"><P>00:00</P></option>
+                   
+                  </select>
+                </div>
+              </div>
+
+
+
+                    <!-- recomentdation -->
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">do you have any medical or physical consern?</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write your consern.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+               <!-- <input type="submit"  value="Submit"> -->
+               <button type="submit"  value ="submit" onclick="return f1() "> <a href="index.html">submit </a></button>
+
+              </div>
+            </form>
+          </div>
+
+          
+
+          <script>
+            function f1(){
+              alert('your flight has been recorded')
+            }
+          </script>
+
+
+    </body>
+</html>

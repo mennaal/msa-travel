@@ -1,0 +1,101 @@
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(216, 212, 212);
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #c96222;
+  color: rgb(29, 44, 206);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #8000006f;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+body {
+  color: rgb(219, 255, 15);
+  font-family: Lucida , Monospace;
+  transition:0.5s;
+}
+
+h1 {
+  color: rgba(132, 17, 124, 0.479);
+  text-shadow: 2px 2px;
+
+      display: block;
+      font-size: 2em;
+      margin-top: 0.67em;
+      margin-bottom: 0.67em;
+      margin-left: 200;
+      margin-right: 0;
+      font-weight: bold;
+
+    }
+    
+    
+    
+    
+@keyframes example {
+from {background-color: rgb(217, 255, 0);}
+to {background-color: rgb(100, 0, 100);}
+}
+h1 {
+animation-name: example;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+    
+
+
+
